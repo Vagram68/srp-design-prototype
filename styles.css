@@ -509,3 +509,31 @@ body:has(#prototype[data-theme=light]){background:#f3f2f5;color:#22232a}
 #prototype[data-theme=light] .assistant-compose input{background:#fff;border-color:#b4a3bf;color:#302333;-webkit-text-fill-color:currentColor}
 #prototype .frame[data-device=mobile]~#assistant-root .assistant-launcher{bottom:88px}
 @media(max-width:720px){#prototype .assistant-launcher{right:14px;bottom:88px;padding:11px 14px}#prototype .assistant-panel{right:10px;bottom:144px;width:calc(100vw - 20px);height:min(590px,calc(100dvh - 165px))}}
+
+/* Phone assistant: a sheet with fixed composer and independently scrolling chat. */
+#prototype .assistant-backdrop{display:none}
+#prototype .assistant-open .assistant-launcher{visibility:hidden}
+#prototype .frame[data-device=mobile]~#assistant-root .assistant-backdrop{display:block;position:fixed;inset:0;z-index:42;background:#08071188;backdrop-filter:blur(3px);border:0;border-radius:0}
+#prototype .frame[data-device=mobile]~#assistant-root .assistant-panel{right:auto;left:50%;transform:translateX(-50%);bottom:0;width:min(414px,100vw);height:calc(100dvh - 110px);border-radius:22px 22px 0 0;padding-bottom:env(safe-area-inset-bottom,0px)}
+#prototype .frame[data-device=mobile]~#assistant-root .assistant-launcher{right:calc(50% - min(207px,50vw) + 14px);bottom:calc(88px + env(safe-area-inset-bottom,0px));min-height:48px}
+#prototype .frame[data-device=mobile]~#assistant-root .assistant-head .icon-button{width:44px;height:44px;flex-shrink:0}
+#prototype .frame[data-device=mobile]~#assistant-root .assistant-compose input{font-size:16px;height:48px;min-width:0}
+#prototype .frame[data-device=mobile]~#assistant-root .assistant-compose .primary{min-width:48px;min-height:48px}
+#prototype .frame[data-device=mobile]~#assistant-root .assistant-suggestions button{min-height:44px;font-size:12px}
+#prototype .frame[data-device=mobile]~#assistant-root .assistant-bubble{font-size:14px}
+#prototype .frame[data-device=mobile]~#assistant-root .assistant-note{font-size:10px}
+@media(max-width:720px){
+ #prototype .assistant-backdrop{display:block;position:fixed;inset:0;z-index:42;background:#08071188;backdrop-filter:blur(3px);border:0;border-radius:0}
+ #prototype .assistant-launcher{min-height:48px;bottom:calc(88px + env(safe-area-inset-bottom,0px))}
+ #prototype .assistant-panel,#prototype .frame[data-device=mobile]~#assistant-root .assistant-panel{left:0;right:0;transform:none;bottom:0;width:100%;height:calc(100dvh - 16px);border-radius:22px 22px 0 0;padding-bottom:env(safe-area-inset-bottom,0px)}
+ #prototype .assistant-head{padding:14px 16px}
+ #prototype .assistant-head .icon-button{width:44px;height:44px;flex-shrink:0}
+ #prototype .assistant-head strong{font-size:16px}
+ #prototype .assistant-head small{font-size:11px}
+ #prototype .assistant-bubble{font-size:14px}
+ #prototype .assistant-bot{margin-right:4px}
+ #prototype .assistant-suggestions button{min-height:44px;font-size:12px}
+ #prototype .assistant-compose input{height:48px;min-width:0;font-size:16px}
+ #prototype .assistant-compose .primary{min-width:48px;min-height:48px}
+ #prototype .assistant-note{font-size:10px;padding-bottom:12px}
+}
