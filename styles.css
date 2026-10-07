@@ -577,3 +577,31 @@ body:has(#prototype[data-theme=light]){background:#f3f2f5;color:#22232a}
 #prototype .frame[data-device=mobile] .trip-map{height:330px}
 #prototype .frame[data-device=mobile] .trip-hero h1{font-size:27px}
 @media(max-width:720px){#prototype .trip-layout{grid-template-columns:1fr}#prototype .trip-map{height:330px}#prototype .trip-entry,#prototype .trip-hero{padding:20px 17px}#prototype .trip-entry h2{font-size:20px}#prototype .trip-hero h1{font-size:27px}#prototype .trip-toolbar{gap:15px}#prototype .trip-toolbar .field{width:60%}#prototype .trip-toolbar select{font-size:16px}#prototype .trip-toolbar small{font-size:11px}#prototype .trip-entry p{font-size:13px}}
+
+#prototype .trip-plan{margin:24px 0;border-radius:16px;padding:24px;border-color:#795060;background:linear-gradient(120deg,#31222e,#23212b)}
+#prototype .trip-plan>header{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:18px}
+#prototype .trip-plan h2{font-size:24px;margin-top:6px}
+#prototype .trip-plan h2 span{font-size:13px;padding:4px 9px;border-radius:20px;background:#73334b;vertical-align:middle;margin-left:5px;color:#fff}
+#prototype .trip-plan-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+#prototype .trip-plan-item{display:flex;align-items:center;gap:12px;padding:13px;background:#ffffff09;border:1px solid #614758;border-radius:12px;min-width:0}
+#prototype .trip-plan-open{flex:1;text-align:left;border:0;background:none;padding:9px 0;min-width:0;color:inherit}
+#prototype .trip-plan-open strong{display:block;overflow-wrap:anywhere;font-size:14px}
+#prototype .trip-plan-open small{display:block;color:#ccb8ca;font-size:12px;margin-top:7px}
+#prototype .trip-plan-controls{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+#prototype .trip-plan-controls :is(a,button){min-height:44px}
+#prototype .trip-plan-controls .icon-button{width:44px;color:inherit}
+#prototype .trip-plan-note{display:block;font-size:12px;color:#ccb8ca;line-height:1.6;margin-top:16px}
+#prototype .trip-plan-empty{color:#ccb8ca;line-height:1.6}
+#prototype .trip-plan-editor{padding:18px 0;border-top:1px solid #745261;border-bottom:1px solid #745261;margin:18px 0}
+#prototype .trip-plan-editor .field{margin:0 0 12px}
+#prototype .trip-plan-editor input{width:100%;font-size:16px;min-height:48px;color-scheme:dark}
+#prototype .trip-plan-editor>small{display:block;margin-top:9px;line-height:1.6;color:#ccb8ca;font-size:11px}
+#prototype .trip-routes a{min-height:44px}
+#prototype[data-theme=light] .trip-plan{background:linear-gradient(120deg,#f6e8ee,#f2f0f8);border-color:#dbc1cf}
+#prototype[data-theme=light] .trip-plan-item{background:#fff;border-color:#dcc7d5}
+#prototype[data-theme=light] :is(.trip-plan-open small,.trip-plan-note,.trip-plan-empty,.trip-plan-editor>small){color:#6a5367}
+#prototype[data-theme=light] .trip-plan-editor{border-color:#d7c0cf}
+#prototype[data-theme=light] .trip-plan-editor input{color-scheme:light}
+#prototype .frame[data-device=mobile] .trip-plan-list{grid-template-columns:1fr}
+#prototype .frame[data-device=mobile] .trip-plan-item{flex-wrap:wrap}
+@media(max-width:720px){#prototype .trip-plan{padding:18px}#prototype .trip-plan h2{font-size:21px}#prototype .trip-plan-list{grid-template-columns:1fr}#prototype .trip-plan-item{flex-wrap:wrap}#prototype .trip-plan-controls{width:100%;justify-content:flex-end}#prototype .trip-plan-open{min-width:100%}}
