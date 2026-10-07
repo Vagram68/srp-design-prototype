@@ -1,0 +1,458 @@
+[
+  {
+    "screen": "home",
+    "title": "Главная",
+    "device": "desktop",
+    "nodeId": "13:10"
+  },
+  {
+    "screen": "home",
+    "title": "Главная",
+    "device": "mobile",
+    "nodeId": "14:10"
+  },
+  {
+    "screen": "tournaments",
+    "title": "Лобби турниров",
+    "device": "desktop",
+    "nodeId": "8:10"
+  },
+  {
+    "screen": "tournaments",
+    "title": "Лобби турниров",
+    "device": "mobile",
+    "nodeId": "12:10"
+  },
+  {
+    "screen": "tournament",
+    "title": "Предстоящий турнир",
+    "device": "desktop",
+    "nodeId": "7:10"
+  },
+  {
+    "screen": "tournament",
+    "title": "Предстоящий турнир",
+    "device": "mobile",
+    "nodeId": "9:10"
+  },
+  {
+    "screen": "completed",
+    "title": "Завершённый турнир",
+    "device": "desktop",
+    "nodeId": "10:10"
+  },
+  {
+    "screen": "completed",
+    "title": "Завершённый турнир",
+    "device": "mobile",
+    "nodeId": "11:10"
+  },
+  {
+    "screen": "history",
+    "title": "История турниров",
+    "device": "desktop",
+    "nodeId": "16:10"
+  },
+  {
+    "screen": "history",
+    "title": "История турниров",
+    "device": "mobile",
+    "nodeId": "17:10"
+  },
+  {
+    "screen": "leagues",
+    "title": "Лиги SRP",
+    "device": "desktop",
+    "nodeId": "18:10"
+  },
+  {
+    "screen": "leagues",
+    "title": "Лиги SRP",
+    "device": "mobile",
+    "nodeId": "82:10"
+  },
+  {
+    "screen": "city-event",
+    "title": "Лига Городов: событие",
+    "device": "desktop",
+    "nodeId": "80:10"
+  },
+  {
+    "screen": "city-event",
+    "title": "Лига Городов: событие",
+    "device": "mobile",
+    "nodeId": "83:10"
+  },
+  {
+    "screen": "champion-event",
+    "title": "Лига Чемпионов: этап",
+    "device": "desktop",
+    "nodeId": "81:10"
+  },
+  {
+    "screen": "champion-event",
+    "title": "Лига Чемпионов: этап",
+    "device": "mobile",
+    "nodeId": "19:10"
+  },
+  {
+    "screen": "rating-event",
+    "title": "Лига Рейтинга: финал клуба",
+    "device": "desktop",
+    "nodeId": "20:10"
+  },
+  {
+    "screen": "rating-event",
+    "title": "Лига Рейтинга: финал клуба",
+    "device": "mobile",
+    "nodeId": "21:10"
+  },
+  {
+    "screen": "ambassadors",
+    "title": "Лига Амбассадоров · скоро",
+    "device": "desktop",
+    "nodeId": "22:10"
+  },
+  {
+    "screen": "ambassadors",
+    "title": "Лига Амбассадоров · скоро",
+    "device": "mobile",
+    "nodeId": "23:10"
+  },
+  {
+    "screen": "clubs",
+    "title": "Каталог клубов",
+    "device": "desktop",
+    "nodeId": "85:10"
+  },
+  {
+    "screen": "clubs",
+    "title": "Каталог клубов",
+    "device": "mobile",
+    "nodeId": "86:10"
+  },
+  {
+    "screen": "club",
+    "title": "Карточка клуба",
+    "device": "desktop",
+    "nodeId": "84:10"
+  },
+  {
+    "screen": "club",
+    "title": "Карточка клуба",
+    "device": "mobile",
+    "nodeId": "25:10"
+  },
+  {
+    "screen": "map",
+    "title": "Карта клубов",
+    "device": "desktop",
+    "nodeId": "24:10"
+  },
+  {
+    "screen": "map",
+    "title": "Карта клубов",
+    "device": "mobile",
+    "nodeId": "26:10"
+  },
+  {
+    "screen": "rating",
+    "title": "Рейтинг игроков",
+    "device": "desktop",
+    "nodeId": "28:10"
+  },
+  {
+    "screen": "rating",
+    "title": "Рейтинг игроков",
+    "device": "mobile",
+    "nodeId": "30:10"
+  },
+  {
+    "screen": "player",
+    "title": "Профиль игрока",
+    "device": "desktop",
+    "nodeId": "27:10"
+  },
+  {
+    "screen": "player",
+    "title": "Профиль игрока",
+    "device": "mobile",
+    "nodeId": "29:10"
+  },
+  {
+    "screen": "player-history",
+    "title": "Турниры другого игрока",
+    "device": "desktop",
+    "nodeId": "31:10"
+  },
+  {
+    "screen": "player-history",
+    "title": "Турниры другого игрока",
+    "device": "mobile",
+    "nodeId": "32:10"
+  },
+  {
+    "screen": "player-achievements",
+    "title": "Достижения другого игрока",
+    "device": "desktop",
+    "nodeId": "33:10"
+  },
+  {
+    "screen": "player-achievements",
+    "title": "Достижения другого игрока",
+    "device": "mobile",
+    "nodeId": "35:10"
+  },
+  {
+    "screen": "player-statistics",
+    "title": "Статистика другого игрока",
+    "device": "desktop",
+    "nodeId": "34:10"
+  },
+  {
+    "screen": "player-statistics",
+    "title": "Статистика другого игрока",
+    "device": "mobile",
+    "nodeId": "36:10"
+  },
+  {
+    "screen": "player-result",
+    "title": "Результат другого игрока",
+    "device": "desktop",
+    "nodeId": "37:10"
+  },
+  {
+    "screen": "player-result",
+    "title": "Результат другого игрока",
+    "device": "mobile",
+    "nodeId": "38:10"
+  },
+  {
+    "screen": "profile",
+    "title": "Мой аккаунт",
+    "device": "desktop",
+    "nodeId": "40:10"
+  },
+  {
+    "screen": "profile",
+    "title": "Мой аккаунт",
+    "device": "mobile",
+    "nodeId": "41:10"
+  },
+  {
+    "screen": "achievements",
+    "title": "Достижения и прогресс",
+    "device": "desktop",
+    "nodeId": "42:10"
+  },
+  {
+    "screen": "achievements",
+    "title": "Достижения и прогресс",
+    "device": "mobile",
+    "nodeId": "45:10"
+  },
+  {
+    "screen": "statistics",
+    "title": "Статистика игрока",
+    "device": "desktop",
+    "nodeId": "43:10"
+  },
+  {
+    "screen": "statistics",
+    "title": "Статистика игрока",
+    "device": "mobile",
+    "nodeId": "44:10"
+  },
+  {
+    "screen": "settings",
+    "title": "Настройки профиля",
+    "device": "desktop",
+    "nodeId": "46:10"
+  },
+  {
+    "screen": "settings",
+    "title": "Настройки профиля",
+    "device": "mobile",
+    "nodeId": "48:10"
+  },
+  {
+    "screen": "broadcast",
+    "title": "Профиль для трансляции",
+    "device": "desktop",
+    "nodeId": "49:10"
+  },
+  {
+    "screen": "broadcast",
+    "title": "Профиль для трансляции",
+    "device": "mobile",
+    "nodeId": "47:10"
+  },
+  {
+    "screen": "notifications",
+    "title": "Центр уведомлений",
+    "device": "desktop",
+    "nodeId": "50:10"
+  },
+  {
+    "screen": "notifications",
+    "title": "Центр уведомлений",
+    "device": "mobile",
+    "nodeId": "51:10"
+  },
+  {
+    "screen": "push-settings",
+    "title": "Настройки уведомлений",
+    "device": "desktop",
+    "nodeId": "52:10"
+  },
+  {
+    "screen": "push-settings",
+    "title": "Настройки уведомлений",
+    "device": "mobile",
+    "nodeId": "53:10"
+  },
+  {
+    "screen": "loyalty",
+    "title": "Карта лояльности · скоро",
+    "device": "desktop",
+    "nodeId": "54:10"
+  },
+  {
+    "screen": "loyalty",
+    "title": "Карта лояльности · скоро",
+    "device": "mobile",
+    "nodeId": "55:10"
+  },
+  {
+    "screen": "welcome",
+    "title": "Стартовый экран",
+    "device": "desktop",
+    "nodeId": "57:10"
+  },
+  {
+    "screen": "welcome",
+    "title": "Стартовый экран",
+    "device": "mobile",
+    "nodeId": "56:10"
+  },
+  {
+    "screen": "login",
+    "title": "Вход",
+    "device": "desktop",
+    "nodeId": "59:10"
+  },
+  {
+    "screen": "login",
+    "title": "Вход",
+    "device": "mobile",
+    "nodeId": "60:10"
+  },
+  {
+    "screen": "register",
+    "title": "Регистрация",
+    "device": "desktop",
+    "nodeId": "62:10"
+  },
+  {
+    "screen": "register",
+    "title": "Регистрация",
+    "device": "mobile",
+    "nodeId": "61:10"
+  },
+  {
+    "screen": "reset",
+    "title": "Восстановление пароля",
+    "device": "desktop",
+    "nodeId": "65:10"
+  },
+  {
+    "screen": "reset",
+    "title": "Восстановление пароля",
+    "device": "mobile",
+    "nodeId": "63:10"
+  },
+  {
+    "screen": "verify",
+    "title": "Подтверждение контакта",
+    "device": "desktop",
+    "nodeId": "66:10"
+  },
+  {
+    "screen": "verify",
+    "title": "Подтверждение контакта",
+    "device": "mobile",
+    "nodeId": "64:10"
+  },
+  {
+    "screen": "about",
+    "title": "О сети и правила",
+    "device": "desktop",
+    "nodeId": "67:10"
+  },
+  {
+    "screen": "about",
+    "title": "О сети и правила",
+    "device": "mobile",
+    "nodeId": "68:10"
+  },
+  {
+    "screen": "support",
+    "title": "Поддержка",
+    "device": "desktop",
+    "nodeId": "69:10"
+  },
+  {
+    "screen": "support",
+    "title": "Поддержка",
+    "device": "mobile",
+    "nodeId": "70:10"
+  },
+  {
+    "screen": "updates",
+    "title": "Обновления приложения",
+    "device": "desktop",
+    "nodeId": "73:10"
+  },
+  {
+    "screen": "updates",
+    "title": "Обновления приложения",
+    "device": "mobile",
+    "nodeId": "71:10"
+  },
+  {
+    "screen": "install",
+    "title": "Установить приложение",
+    "device": "desktop",
+    "nodeId": "72:10"
+  },
+  {
+    "screen": "install",
+    "title": "Установить приложение",
+    "device": "mobile",
+    "nodeId": "74:10"
+  },
+  {
+    "screen": "privacy",
+    "title": "Политика конфиденциальности",
+    "device": "desktop",
+    "nodeId": "78:10"
+  },
+  {
+    "screen": "privacy",
+    "title": "Политика конфиденциальности",
+    "device": "mobile",
+    "nodeId": "77:10"
+  },
+  {
+    "screen": "consent",
+    "title": "Обработка персональных данных",
+    "device": "desktop",
+    "nodeId": "79:10"
+  },
+  {
+    "screen": "consent",
+    "title": "Обработка персональных данных",
+    "device": "mobile",
+    "nodeId": "76:10"
+  }
+]

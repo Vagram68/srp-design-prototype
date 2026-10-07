@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Интерактивный прототип SRP: мобильная и десктопная версии, экраны и сценарии для согласования.">
+<title>SRP — интерактивный прототип</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23ed343e'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-size='30' fill='white'%3E♠%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css?v=clubhouse-2">
+</head>
+<body>
+<div id="prototype" data-theme="light">
+<header class="review-bar">
+  <div class="review-brand"><span class="review-dot"></span><b>SRP</b><span>Редизайн · рабочий прототип</span></div>
+  <div class="review-actions">
+    <select id="theme-picker" aria-label="Тема оформления"><option value="dark">Тёмная тема</option><option value="light">Светлая тема</option></select>
+    <select id="audience-picker" aria-label="Тип игрока в демонстрации"><option value="regular">Постоянный игрок</option><option value="new">Новый игрок</option></select><div class="device-picker" aria-label="Формат экрана"><button data-device="desktop" aria-pressed="true">Компьютер</button><button data-device="mobile" aria-pressed="false">Телефон</button></div>
+    <button class="review-button" data-action="catalog">Все экраны <span id="screen-count"></span></button>
+    <button class="review-button" data-action="journeys">Сценарии</button><a class="review-button" href="../handoff.html">Спецификация ↗</a>
+    <select id="state-picker" aria-label="Состояние экрана"><option value="normal">Обычный экран</option><option value="loading">Загрузка</option><option value="empty">Нет данных</option><option value="error">Ошибка</option></select>
+  </div>
+</header>
+<div class="review-caption"><span id="screen-caption"></span><span id="coverage-caption"></span></div>
+<div id="frame" class="frame" data-device="desktop"><div id="app" class="app"></div></div>
+<div class="review-bottom"><span>Демо данных · действия не меняют рабочий SRP</span><button data-action="reset-demo">Сбросить демонстрацию</button></div>
+<div id="review-drawer" hidden></div>
+<div id="modal-root"></div>
+<div id="assistant-root"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+</div>
+<script src="app.js?v=clubhouse-2"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-08",
+  "scenario_routes": 38,
+  "generic_render_states": 152,
+  "browser_layout_checks": 304,
+  "widths": [
+    390,
+    768,
+    1280,
+    1440
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "horizontal_document_overflow": 0,
+  "browser_flows": [
+    "demo registration -> contact code -> first home",
+    "mobile event selection -> registration -> success -> cancellation",
+    "theme selection in product settings",
+    "mobile assistant open and close"
+  ],
+  "contrast": {
+    "light": {
+      "ink": 16.39,
+      "muted": 6.04,
+      "accent": 8.1,
+      "gold": 7.02,
+      "success": 6.81,
+      "button_text": 8.1
+    },
+    "dark": {
+      "ink": 14.62,
+      "muted": 8.15,
+      "accent": 7.3,
+      "gold": 11.19,
+      "success": 11.02,
+      "button_text": 5.28
+    }
+  },
+  "limits": [
+    "No real backend integration or push delivery",
+    "Guest SRP forms require confirmation",
+    "5–7 player usability sessions not conducted",
+    "Figma MCP Starter limit stopped final component composition; 76 reference screens present",
+    "Local Figma helper syntax verified; not executed"
+  ]
+}

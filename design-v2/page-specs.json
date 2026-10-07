@@ -1,0 +1,572 @@
+[
+  {
+    "id": "home",
+    "title": "Главная",
+    "group": "Основные разделы",
+    "status": "verified",
+    "goal": "Найти подходящую игру с первого экрана",
+    "features": "Видео; ближайшие турниры; лиги; сеть и помощь",
+    "states": "Контекст клуба; гостевой, новый и постоянный игрок; следующий зарегистрированный турнир; ошибка видео",
+    "contract": "Первый визит: помощь и выбор клуба. Постоянный: следующая запись. Числа не подставлять новичку.",
+    "url": "prototype/index.html#home",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=13-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=14-10"
+    }
+  },
+  {
+    "id": "tournaments",
+    "title": "Лобби турниров",
+    "group": "Основные разделы",
+    "status": "verified",
+    "goal": "Выбрать игру и открыть условия",
+    "features": "Дата; название; формат; количество участников; запись; исследовать",
+    "states": "Открыта; зарегистрирован; полный; идёт; завершён; скоро",
+    "contract": "На десктопе список и выбранная игра рядом. На телефоне карточки и отдельный экран деталей.",
+    "url": "prototype/index.html#tournaments",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=8-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=12-10"
+    }
+  },
+  {
+    "id": "tournament",
+    "title": "Предстоящий турнир",
+    "group": "Турниры",
+    "status": "verified",
+    "goal": "Понять условия и записаться",
+    "features": "О турнире; участники; список/рассадка; структура; дата; адрес",
+    "states": "Запись открыта/полная/закрыта; зарегистрирован; отмена; отсутствующая рассадка",
+    "contract": "32 уровня проверены у одного турнира; у других структура может отличаться. Не обещать отмену после старта.",
+    "url": "prototype/index.html#tournament",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=7-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=9-10"
+    }
+  },
+  {
+    "id": "completed",
+    "title": "Завершённый турнир",
+    "group": "Турниры",
+    "status": "verified",
+    "goal": "Узнать результат и начисления",
+    "features": "О турнире; таблица результатов; очки; адрес; дата",
+    "states": "Результаты не опубликованы; личного результата нет",
+    "contract": "710.41 и 1032 — числа проверенного примера, не универсальные значения. Пул/средний рейтинг загружать отдельно.",
+    "url": "prototype/index.html#completed",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=10-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=11-10"
+    }
+  },
+  {
+    "id": "history",
+    "title": "История турниров",
+    "group": "Турниры",
+    "status": "verified",
+    "goal": "Найти свою запись или прошлую игру",
+    "features": "Мои/все; турниры; даты; места; переход к результату",
+    "states": "Нет игр; предстоящие; отменённая запись; пагинация",
+    "contract": "Демо содержит ограниченный фрагмент истории. Прод сохраняет все записи и пагинацию.",
+    "url": "prototype/index.html#history",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=16-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=17-10"
+    }
+  },
+  {
+    "id": "leagues",
+    "title": "Лиги SRP",
+    "group": "Лиги",
+    "status": "verified",
+    "goal": "Разобраться в формате и выбрать этап",
+    "features": "Городов; Чемпионов; Рейтинга; клуб; туры",
+    "states": "Текущий сезон; нет этапов; будущие и прошедшие этапы",
+    "contract": "Правила отбора и стадии сохраняются. Не сводить все лиги к обычной регистрации.",
+    "url": "prototype/index.html#leagues",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=18-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=82-10"
+    }
+  },
+  {
+    "id": "city-event",
+    "title": "Лига Городов: событие",
+    "group": "Лиги",
+    "status": "verified",
+    "goal": "Изучить этап Лиги Городов",
+    "features": "О турнире; время; локация; участники; структура",
+    "states": "1A; финал; набор участников; результаты",
+    "contract": "Этапы и доступность действий должны приходить с текущего сезона.",
+    "url": "prototype/index.html#city-event",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=80-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=83-10"
+    }
+  },
+  {
+    "id": "champion-event",
+    "title": "Лига Чемпионов: этап",
+    "group": "Лиги",
+    "status": "inferred",
+    "goal": "Проследить отбор представителя клуба",
+    "features": "Тур; раунды; финал; сетка; победители",
+    "states": "Пары не сформированы; победитель не определён; завершённый тур",
+    "contract": "Экран этапа предложен на основе структуры лиги; заполненную сетку ещё надо сверить.",
+    "url": "prototype/index.html#champion-event",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=81-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=19-10"
+    }
+  },
+  {
+    "id": "rating-event",
+    "title": "Лига Рейтинга: финал клуба",
+    "group": "Лиги",
+    "status": "verified",
+    "goal": "Понять отбор по рейтингу",
+    "features": "Описание; в финал; сетка; победители; финал клуба",
+    "states": "Формирование игроков; завершённый месяц; финал сети",
+    "contract": "Не менять правила ежемесячного и годового отбора дизайном.",
+    "url": "prototype/index.html#rating-event",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=20-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=21-10"
+    }
+  },
+  {
+    "id": "ambassadors",
+    "title": "Лига Амбассадоров · скоро",
+    "group": "Лиги",
+    "status": "verified",
+    "goal": "Узнать о новом формате",
+    "features": "Видео; название; дата; статус скоро",
+    "states": "Нет опубликованных условий",
+    "contract": "Сохранять статус скоро; не показывать действующую запись, если она недоступна.",
+    "url": "prototype/index.html#ambassadors",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=22-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=23-10"
+    }
+  },
+  {
+    "id": "clubs",
+    "title": "Каталог клубов",
+    "group": "Клубы и рейтинг",
+    "status": "verified",
+    "goal": "Найти клуб в своём или другом городе",
+    "features": "Все; новые; карта; поиск; домашний клуб первым",
+    "states": "Загрузка; нет совпадений; город; отсутствующее фото",
+    "contract": "Добавлен справочник городов. Контекст просмотра клуба и домашний клуб — разные значения.",
+    "url": "prototype/index.html#clubs",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=85-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=86-10"
+    }
+  },
+  {
+    "id": "club",
+    "title": "Карточка клуба",
+    "group": "Клубы и рейтинг",
+    "status": "verified",
+    "goal": "Понять клуб и перейти к его играм",
+    "features": "Галерея; описание; адрес; турниры; домашний клуб",
+    "states": "Фото отсутствует; адрес неизвестен; выбранный домашний клуб; расписание недоступно",
+    "contract": "Milli Club проверен на сайте. Для других клубов не выдумывать адрес, фото и расписание.",
+    "url": "prototype/index.html#club",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=84-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=25-10"
+    }
+  },
+  {
+    "id": "map",
+    "title": "Карта клубов",
+    "group": "Клубы и рейтинг",
+    "status": "verified",
+    "goal": "Найти клуб в поездке и добраться до него",
+    "features": "Карта; маркеры; город; карточка клуба; маршруты",
+    "states": "Карта не загрузилась; адрес отсутствует; нет клубов; выбранный маркер",
+    "contract": "SRP использует карту клубов. Маршрут, список поездки и календарь добавлены в прототип; внедрение отдельно.",
+    "url": "prototype/index.html#map",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=24-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=26-10"
+    }
+  },
+  {
+    "id": "rating",
+    "title": "Рейтинг игроков",
+    "group": "Клубы и рейтинг",
+    "status": "verified",
+    "goal": "Посмотреть своё положение и игроков",
+    "features": "Мой клуб; сеть; неделя; поиск; профили",
+    "states": "Ничего не найдено; рейтинг отсутствует; собственный игрок вне первой страницы",
+    "contract": "Показывать область рейтинга и период. Формулу рейтинга получить у разработчика, не придумывать.",
+    "url": "prototype/index.html#rating",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=28-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=30-10"
+    }
+  },
+  {
+    "id": "player",
+    "title": "Профиль игрока",
+    "group": "Клубы и рейтинг",
+    "status": "verified",
+    "goal": "Посмотреть публичный профиль",
+    "features": "Ник; клуб; история; достижения; статистика",
+    "states": "Нет публичной информации; игрок не найден",
+    "contract": "Показывать только публичные поля. Контакты и данные авторизации сюда не попадают.",
+    "url": "prototype/index.html#player",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=27-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=29-10"
+    }
+  },
+  {
+    "id": "player-history",
+    "title": "Турниры другого игрока",
+    "group": "Клубы и рейтинг",
+    "status": "verified",
+    "goal": "Изучить результаты другого игрока",
+    "features": "Турниры; даты; места; карточки результатов",
+    "states": "Нет истории; пагинация; ошибка загрузки",
+    "contract": "Тот же компонент списка, что в собственной истории, без действий владельца.",
+    "url": "prototype/index.html#player-history",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=31-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=32-10"
+    }
+  },
+  {
+    "id": "player-achievements",
+    "title": "Достижения другого игрока",
+    "group": "Клубы и рейтинг",
+    "status": "verified",
+    "goal": "Посмотреть публичные достижения",
+    "features": "Категории; уровни; прогресс; карточка награды",
+    "states": "Нет наград; скрытые сведения",
+    "contract": "Категории и уровни приходят с сервера, а не фиксируются по одному проверенному аккаунту.",
+    "url": "prototype/index.html#player-achievements",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=33-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=35-10"
+    }
+  },
+  {
+    "id": "player-statistics",
+    "title": "Статистика другого игрока",
+    "group": "Клубы и рейтинг",
+    "status": "verified",
+    "goal": "Сравнить публичные показатели",
+    "features": "Сводка; лучшие турниры; динамика мест",
+    "states": "Недостаточно игр; полный период; нет данных",
+    "contract": "Тот же набор графиков; доступность объяснения чисел и текстовая альтернатива.",
+    "url": "prototype/index.html#player-statistics",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=34-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=36-10"
+    }
+  },
+  {
+    "id": "player-result",
+    "title": "Результат другого игрока",
+    "group": "Клубы и рейтинг",
+    "status": "inferred",
+    "goal": "Посмотреть результат другого игрока",
+    "features": "Результат; турнир; дата; таблица участников",
+    "states": "Игрок вне финального стола; результат не опубликован",
+    "contract": "Экран результата публичного игрока предложен; не подставлять результат владельца аккаунта.",
+    "url": "prototype/index.html#player-result",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=37-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=38-10"
+    }
+  },
+  {
+    "id": "profile",
+    "title": "Мой аккаунт",
+    "group": "Аккаунт",
+    "status": "verified",
+    "goal": "Быстро найти запись и свой прогресс",
+    "features": "Фото; ник; клуб; уведомления; настройки; история; достижения; статистика; лояльность",
+    "states": "Новый игрок; аватар отсутствует; история пуста",
+    "contract": "Разделы владельца находятся в аккаунте; лояльность остаётся недоступной до запуска.",
+    "url": "prototype/index.html#profile",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=40-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=41-10"
+    }
+  },
+  {
+    "id": "achievements",
+    "title": "Достижения и прогресс",
+    "group": "Аккаунт",
+    "status": "verified",
+    "goal": "Понять прогресс и следующую цель",
+    "features": "Обычные/редкие; категории; уровни; описания",
+    "states": "Получено; в процессе; закрыто; категория отсутствует",
+    "contract": "У проверенного аккаунта: 7 обычных и 11 редких. Не выводить выдуманную категорию Олигарх.",
+    "url": "prototype/index.html#achievements",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=42-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=45-10"
+    }
+  },
+  {
+    "id": "statistics",
+    "title": "Статистика игрока",
+    "group": "Аккаунт",
+    "status": "verified",
+    "goal": "Увидеть результаты без неверных выводов",
+    "features": "Игр; топ-1; топ-3; топ-9; лучшие форматы; динамика",
+    "states": "Мало игр; нулевые показатели; полный период; график без данных",
+    "contract": "Проверено 10 категорий турниров. Демо-графики нельзя выдавать за расчёты реального профиля.",
+    "url": "prototype/index.html#statistics",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=43-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=44-10"
+    }
+  },
+  {
+    "id": "settings",
+    "title": "Настройки профиля",
+    "group": "Аккаунт",
+    "status": "verified",
+    "goal": "Управлять профилем и доступом",
+    "features": "Фото; ник; дата рождения; email; телефон; пароли; Telegram; VK; MAX скоро; установка; push; выход",
+    "states": "Отправка; ошибки валидации; подтверждённый/неподтверждённый контакт; нет текущего пароля",
+    "contract": "Не менять пароли и связи аккаунта при аудите. Провайдеры и подтверждения реализует действующий backend.",
+    "url": "prototype/index.html#settings",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=46-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=48-10"
+    }
+  },
+  {
+    "id": "broadcast",
+    "title": "Профиль для трансляции",
+    "group": "Аккаунт",
+    "status": "verified",
+    "goal": "Подготовить профиль для трансляции",
+    "features": "Превью; имя/фамилия; фото; 11 вопросов; сохранение",
+    "states": "Черновик; обязательные ответы; отправка; ошибка; успешное сохранение",
+    "contract": "Ответы увидят зрители трансляции. Требуются понятные тексты и предупреждение перед сохранением.",
+    "url": "prototype/index.html#broadcast",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=49-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=47-10"
+    }
+  },
+  {
+    "id": "notifications",
+    "title": "Центр уведомлений",
+    "group": "Аккаунт",
+    "status": "verified",
+    "goal": "Увидеть события аккаунта",
+    "features": "Список сообщений; пустое состояние; переход по событию",
+    "states": "Нет уведомлений; непрочитанные; устаревшая ссылка",
+    "contract": "На сайте это панель. Новый отдельный экран допустим, но типы и порядок сообщений определяет сервер.",
+    "url": "prototype/index.html#notifications",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=50-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=51-10"
+    }
+  },
+  {
+    "id": "push-settings",
+    "title": "Настройки уведомлений",
+    "group": "Аккаунт",
+    "status": "new",
+    "goal": "Выбрать полезные уведомления",
+    "features": "Напоминания; расписание; результаты; новости",
+    "states": "Разрешено; отказ ОС; отключено; канал недоступен",
+    "contract": "Новое предложение. Переключатель в демо не означает настоящий системный push.",
+    "url": "prototype/index.html#push-settings",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=52-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=53-10"
+    }
+  },
+  {
+    "id": "loyalty",
+    "title": "Карта лояльности · скоро",
+    "group": "Аккаунт",
+    "status": "verified",
+    "goal": "Понять статус будущей программы",
+    "features": "Карта лояльности; скоро",
+    "states": "В разработке",
+    "contract": "Не обещать баллы, скидки и привилегии до подтверждённых правил.",
+    "url": "prototype/index.html#loyalty",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=54-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=55-10"
+    }
+  },
+  {
+    "id": "welcome",
+    "title": "Стартовый экран",
+    "group": "Авторизация",
+    "status": "verified",
+    "goal": "Понять SRP и начать вход или регистрацию",
+    "features": "Логотип; видео; вход; регистрация; юридические ссылки",
+    "states": "Видео не загрузилось; reduced motion; возрастная граница требует ответа",
+    "contract": "Одна понятная фраза о живой игре и отсутствии денежных ставок; постер вместо чёрного пустого экрана.",
+    "url": "prototype/index.html#welcome",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=57-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=56-10"
+    }
+  },
+  {
+    "id": "login",
+    "title": "Вход",
+    "group": "Авторизация",
+    "status": "verified",
+    "goal": "Войти без потери контекста",
+    "features": "Идентификатор и пароль; показать пароль; восстановление",
+    "states": "Неверные данные; отправка; ошибка сети; ограничение попыток",
+    "contract": "Не стирать введённый идентификатор при ошибке. Восстановление рядом с полем пароля.",
+    "url": "prototype/index.html#login",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=59-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=60-10"
+    }
+  },
+  {
+    "id": "register",
+    "title": "Регистрация",
+    "group": "Авторизация",
+    "status": "inferred",
+    "goal": "Создать аккаунт и найти первую игру",
+    "features": "Контакты; никнейм; клуб; согласия",
+    "states": "Ошибки полей; занятый контакт; отправка; согласия; возраст не уточнён",
+    "contract": "Рабочую гостевую форму ещё надо сверить. Предложенный набор полей не является подтверждённым контрактом.",
+    "url": "prototype/index.html#register",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=62-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=61-10"
+    }
+  },
+  {
+    "id": "reset",
+    "title": "Восстановление пароля",
+    "group": "Авторизация",
+    "status": "inferred",
+    "goal": "Восстановить доступ",
+    "features": "Контакт; подтверждение; новый пароль",
+    "states": "Контакт не найден; код; таймер; серверная ошибка",
+    "contract": "Сценарий предложен; тексты и каналы сверить с текущим провайдером авторизации.",
+    "url": "prototype/index.html#reset",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=65-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=63-10"
+    }
+  },
+  {
+    "id": "verify",
+    "title": "Подтверждение контакта",
+    "group": "Авторизация",
+    "status": "inferred",
+    "goal": "Подтвердить контакт",
+    "features": "Код; повторная отправка; возвращение к форме",
+    "states": "Код неверный или истёк; отправка; таймер; успешное подтверждение",
+    "contract": "Код 123456 существует только в демо. Реальные коды и таймеры выдаёт сервер.",
+    "url": "prototype/index.html#verify",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=66-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=64-10"
+    }
+  },
+  {
+    "id": "about",
+    "title": "О сети и правила",
+    "group": "Справка",
+    "status": "verified",
+    "goal": "Понять формат SRP",
+    "features": "Описание сети; покер не на деньги; правила; выбор клуба",
+    "states": "Новый пользователь; вопросы о первом посещении",
+    "contract": "Уточнить правила первого визита у клуба; не добавлять обязательные документы без подтверждения.",
+    "url": "prototype/index.html#about",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=67-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=68-10"
+    }
+  },
+  {
+    "id": "support",
+    "title": "Поддержка",
+    "group": "Справка",
+    "status": "inferred",
+    "goal": "Получить помощь",
+    "features": "Частые вопросы; канал поддержки; обращение",
+    "states": "Нет ответа; отправка; ошибка",
+    "contract": "Форма обращения предложена: текущая QA-ссылка пустая. Согласовать реальный канал и SLA.",
+    "url": "prototype/index.html#support",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=69-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=70-10"
+    }
+  },
+  {
+    "id": "updates",
+    "title": "Обновления приложения",
+    "group": "Справка",
+    "status": "inferred",
+    "goal": "Понять изменения приложения",
+    "features": "Версия; релизные заметки",
+    "states": "Нет новых заметок",
+    "contract": "На странице проверены блоки v4.0 и v3.0, при этом аккаунт показывает v4.8.0. Не выдумывать changelog.",
+    "url": "prototype/index.html#updates",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=73-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=71-10"
+    }
+  },
+  {
+    "id": "install",
+    "title": "Установить приложение",
+    "group": "Справка",
+    "status": "verified",
+    "goal": "Добавить приложение на устройство",
+    "features": "Установка на домашний экран; инструкции",
+    "states": "iOS; Android; desktop; уже установлено",
+    "contract": "Текущая установка не равна публикации в App Store. Нативное приложение и публикация — отдельный проект.",
+    "url": "prototype/index.html#install",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=72-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=74-10"
+    }
+  },
+  {
+    "id": "privacy",
+    "title": "Политика конфиденциальности",
+    "group": "Справка",
+    "status": "verified",
+    "goal": "Прочитать политику",
+    "features": "Полный официальный документ; навигация назад",
+    "states": "Документ недоступен; обновлённая редакция",
+    "contract": "В демо сокращённый экран. В проде требуется точный актуальный документ SRP без дизайнерского пересказа.",
+    "url": "prototype/index.html#privacy",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=78-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=77-10"
+    }
+  },
+  {
+    "id": "consent",
+    "title": "Обработка персональных данных",
+    "group": "Справка",
+    "status": "verified",
+    "goal": "Ознакомиться с обработкой данных",
+    "features": "Полный документ; связанные согласия",
+    "states": "Актуальная редакция; документ недоступен",
+    "contract": "Сохранять юридический текст и логику согласий. Правила регистрации уточнить у владельца.",
+    "url": "prototype/index.html#consent",
+    "figma": {
+      "desktop": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=79-10",
+      "mobile": "https://www.figma.com/design/gXy7fwsV4HKG4T3vUxKdQ6?node-id=76-10"
+    }
+  }
+]

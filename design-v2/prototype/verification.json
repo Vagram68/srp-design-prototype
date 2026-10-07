@@ -1,0 +1,15 @@
+{
+  "screenRoutes": 38,
+  "renderedStates": 152,
+  "navigationAndActionControls": 1034,
+  "forms": 8,
+  "registrationCancellation": "passed",
+  "leagueTabs": "passed",
+  "achievements": "passed",
+  "accountBindings": "passed",
+  "logoutLogin": "passed",
+  "broadcastQuestions": 11,
+  "blindLevels": 32,
+  "completedPoints": "passed",
+  "limitations": "Synthetic DOM validation; visual layout requires browser inspection."
+}
