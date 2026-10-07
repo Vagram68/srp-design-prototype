@@ -1060,3 +1060,18 @@ body{background:#f4f3ef}
 #prototype[data-theme] .club-photo-banner>.pill{position:relative;margin-left:auto;background:#fff;color:#715421}
 @media(min-width:721px){#prototype[data-theme] .assistant-launcher{bottom:84px}}
 #prototype[data-theme] .danger{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 18px;border:1px solid var(--accent);border-radius:12px;background:var(--accent-soft);color:var(--accent);font-size:14px;font-weight:650}
+/* Final lobby skin: neutral rows, semantic selection, no inherited promotional strips. */
+#prototype[data-theme] .event-row>span:nth-child(2){padding:0;background:none!important;border:0!important;box-shadow:none!important}
+#prototype[data-theme] .event-row>span:nth-child(2)::before,#prototype[data-theme] .event-row>span:nth-child(2)::after{content:none!important}
+#prototype[data-theme] .event-row .event-name{text-align:left;display:block;line-height:1.5;font-weight:650}
+#prototype[data-theme] .event-row:nth-child(odd){background:var(--surface)}
+#prototype[data-theme] .event-row.selected,#prototype[data-theme] .event-row.selected:nth-child(odd){background:var(--accent-soft)}
+#prototype[data-theme] .page-tournaments>.toolbar{background:none!important;padding:0;margin:20px 0;gap:12px}
+#prototype[data-theme] .page-tournaments>.page-head{background:none!important}
+#prototype[data-theme] .page-tournaments .filter-chips button{background:var(--surface)!important;color:var(--ink)!important;border:1px solid var(--line);border-radius:12px;padding:10px 14px;min-height:44px;font-size:13px}
+#prototype[data-theme] .page-tournaments .filter-chips button.active{background:var(--accent-soft)!important;color:var(--accent)!important;border-color:var(--accent)}
+#prototype[data-theme] .event-detail .detail-body,#prototype[data-theme] .event-detail .detail-art{background:none!important;padding:0}
+#prototype[data-theme] .event-detail .detail-art{padding-bottom:16px;border-bottom:1px solid var(--line)}
+#prototype[data-theme] .event-detail .detail-art p{color:var(--muted)}
+#prototype[data-theme] .event-detail .facts :is(dt,dd){color:var(--ink)}
+#prototype[data-theme] .event-detail .facts dt{color:var(--muted)}
