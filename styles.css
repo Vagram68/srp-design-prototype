@@ -229,3 +229,48 @@
 #prototype .review-caption{max-width:none}
 #prototype .frame[data-device=desktop] .app{min-height:calc(100dvh - 78px);display:flex;flex-direction:column}
 #prototype .frame[data-device=desktop] .client-body{flex:1}
+
+/* Cinematic SRP welcome, registration and sign-in. */
+#prototype .auth-layout{display:grid;grid-template-columns:1.15fr 1fr;min-height:calc(100dvh - 78px);background:radial-gradient(ellipse at 100% 0,#4a1725aa,transparent 60%),radial-gradient(ellipse at 70% 100%,#3d294855,transparent 55%),#17171c}
+#prototype .auth-art{position:relative;isolation:isolate;overflow:hidden;min-height:760px;padding:35px 44px;display:flex;flex-direction:column;justify-content:space-between;border:0;background:#15151c}
+#prototype .auth-art .srp-video,#prototype .auth-art .srp-video-poster{z-index:-3;object-fit:cover}
+#prototype .auth-film-shade{position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,#09080ed9,#0a091d44),linear-gradient(0deg,#121019ed,transparent 70%)}
+#prototype .auth-film-top{display:flex;justify-content:space-between;align-items:center;gap:16px}
+#prototype .auth-film-top .logo img{width:122px;height:43px;object-fit:contain;display:block}
+#prototype .auth-film-top .logo small{font-size:9px;letter-spacing:4px;color:#ddd}
+#prototype .auth-live{font-size:9px;letter-spacing:1.5px;color:#eee;display:flex;align-items:center;gap:7px}
+#prototype .auth-live i{width:6px;height:6px;background:#d3ad68;border-radius:50%;box-shadow:0 0 12px #ffbf46;animation:livePulse 3s infinite}
+#prototype .auth-film-copy{padding:64px 0 38px;animation:welcomeRise .65s ease-out}
+#prototype .auth-art h1{font-size:clamp(40px,5.1cqw,82px);font-weight:800;letter-spacing:-2.6px;line-height:1.04;max-width:650px;margin:20px 0 25px;text-shadow:0 3px 30px #0007}
+#prototype .auth-art h1 em{font-style:normal;color:#e6c781}
+#prototype .auth-art p{font-size:17px;line-height:1.65;color:#e5e0e5;max-width:450px}
+#prototype .auth-art .eyebrow{font-size:10px;letter-spacing:2.5px;color:#e7ca90}
+#prototype .auth-benefits{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+#prototype .auth-benefits>span{display:flex;align-items:center;gap:8px;border:1px solid #ffffff30;border-radius:25px;background:#17131f55;backdrop-filter:blur(8px);font-size:11px;color:#f4eeee;padding:9px 12px}
+#prototype .auth-benefits .icon{width:15px;height:15px;color:#e6c781}
+#prototype .auth-art-bottom{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:9px;letter-spacing:1.4px;color:#bbb}
+#prototype .auth-art-bottom .pill{font-size:10px;letter-spacing:0;background:#201b14bb;color:#ecd6a3;border:1px solid #8d77544d}
+#prototype .auth-form{max-width:none;margin:0;padding:40px 8%;display:flex;align-items:center;justify-content:center;position:relative;background:linear-gradient(135deg,#ffffff02,#ffffff00)}
+#prototype .auth-form-card{width:100%;max-width:450px;padding:32px;border:1px solid #ffffff13;border-radius:18px;background:linear-gradient(140deg,#343039aa,#1f1d24b0);box-shadow:0 24px 70px #0003,inset 0 1px #ffffff0b;animation:welcomeRise .45s ease-out}
+#prototype .auth-form h1{font-size:34px;line-height:1.12;letter-spacing:-1px;margin-bottom:15px}
+#prototype .auth-form .eyebrow{font-size:9px;letter-spacing:1.7px;margin-bottom:15px;color:#e3c389}
+#prototype .auth-form .subheading{font-size:14px;line-height:1.6;color:#d1c9d3}
+#prototype .auth-form input,#prototype .auth-form select{background:#17151dbc;border-color:#5d5363;border-radius:8px;min-height:46px}
+#prototype .auth-form .primary{min-height:48px;border-radius:8px;background:linear-gradient(110deg,#c72b3a,#950e22);border-color:#cf4e59;box-shadow:0 7px 25px #ae18262b}
+#prototype .auth-form .secondary{min-height:44px;border-radius:8px;background:#ffffff05;border:1px solid #ffffff25;margin-top:10px;font-size:13px}
+#prototype .auth-form .tabs{background:#1a171d70;border-color:#514650;margin-top:20px}
+#prototype .auth-form .tabs .active{background:#51313d}
+#prototype .auth-form .auth-legal{font-size:10px;color:#bfb3c5;line-height:1.6}
+#prototype .welcome-steps{display:grid;gap:18px;margin:30px 0}
+#prototype .welcome-steps>div{display:flex;gap:14px;align-items:center}
+#prototype .welcome-steps>div>span{width:33px;height:33px;display:grid;place-items:center;border:1px solid #c8ac6840;border-radius:50%;color:#dec28a;font-size:11px;background:#b6954510}
+#prototype .welcome-steps p{margin:0;display:grid;gap:3px}
+#prototype .welcome-steps strong{font-size:13px;font-weight:600;color:#f6f0f4}
+#prototype .welcome-steps small{font-size:11px;color:#b8acbc}
+#prototype .page-home{background:radial-gradient(ellipse at 0% 100%,#40205066,transparent 48%),radial-gradient(ellipse at 100% 70%,#62212d66,transparent 50%),#111017}
+#prototype .page-home .video-banner{box-shadow:0 20px 75px #a324321a;border:1px solid #e4c68b20}
+@keyframes welcomeRise{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}
+@keyframes livePulse{50%{opacity:.5;box-shadow:0 0 4px #ffbf46}}
+@container(max-width:1000px){#prototype .auth-art{padding:30px 26px}#prototype .auth-live{display:none}#prototype .auth-form{padding:30px 6%}#prototype .auth-form-card{padding:25px}#prototype .auth-form h1{font-size:29px}}
+@container(max-width:720px){#prototype .auth-layout{display:block;min-height:calc(100dvh - 78px)}#prototype .auth-art{min-height:310px;padding:20px 22px}#prototype .auth-film-top .logo img{width:88px;height:32px}#prototype .auth-film-top .logo small{font-size:8px}#prototype .auth-film-copy{padding:15px 0 0}#prototype .auth-art h1{font-size:35px;letter-spacing:-1px;margin:10px 0 12px}#prototype .auth-art h1 br:nth-of-type(2){display:none}#prototype .auth-art p{display:none}#prototype .auth-art .eyebrow{font-size:8px;letter-spacing:1.5px}#prototype .auth-benefits{margin-top:18px;gap:7px}#prototype .auth-benefits>span{font-size:9px;padding:7px 8px}#prototype .auth-art-bottom{display:none}#prototype .auth-form{padding:20px 16px 32px}#prototype .auth-form-card{padding:23px 20px;max-width:480px;border-radius:14px}#prototype .auth-form h1{font-size:28px}#prototype .welcome-steps{gap:14px;margin:24px 0}#prototype .auth-form .auth-legal{font-size:10px}}
+@media(prefers-reduced-motion:reduce){#prototype .auth-live i,#prototype .auth-film-copy,#prototype .auth-form-card{animation:none}}
