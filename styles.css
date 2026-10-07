@@ -223,3 +223,9 @@
 #prototype .video-banner{height:auto;aspect-ratio:16/9;min-height:275px;overflow:hidden}
 #prototype .video-banner .srp-video,#prototype .video-banner .srp-video-poster{object-fit:contain;background:#080808}
 @container(max-width:720px){#prototype .video-banner{height:auto;aspect-ratio:4/3;min-height:285px}#prototype .video-banner h2{font-size:27px}}
+
+/* Desktop client fills the available browser window. */
+#prototype .frame[data-device=desktop]{max-width:none;width:100%;margin:0;border:0;border-radius:0}
+#prototype .review-caption{max-width:none}
+#prototype .frame[data-device=desktop] .app{min-height:calc(100dvh - 78px);display:flex;flex-direction:column}
+#prototype .frame[data-device=desktop] .client-body{flex:1}
