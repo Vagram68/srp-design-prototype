@@ -537,3 +537,43 @@ body:has(#prototype[data-theme=light]){background:#f3f2f5;color:#22232a}
  #prototype .assistant-compose .primary{min-width:48px;min-height:48px}
  #prototype .assistant-note{font-size:10px;padding-bottom:12px}
 }
+
+/* City guide: a real map, club directory and verified-address directions. */
+#prototype .trip-entry,#prototype .trip-hero{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 28px;border:1px solid #704450;background:linear-gradient(110deg,#3d2030,#242734);border-radius:16px;margin:20px 0;color:#fff}
+#prototype .trip-entry h2{margin:6px 0;font-size:24px;color:inherit}
+#prototype .trip-entry p,#prototype .trip-hero p{color:#d6cbd5;margin-top:8px}
+#prototype .trip-entry>.icon,#prototype .trip-hero>span>.icon{width:54px;height:54px;flex-shrink:0;color:#efbdcc}
+#prototype .trip-hero h1{margin:8px 0;font-size:36px}
+#prototype .trip-toolbar{display:flex;align-items:center;gap:26px;margin:22px 0}
+#prototype .trip-toolbar .field{width:min(330px,60%);margin:0}
+#prototype .trip-toolbar small{display:block;margin-top:5px;color:#b7abbc}
+#prototype .trip-layout{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(300px,1fr);gap:20px;align-items:start}
+#prototype .trip-map{position:relative;border:1px solid #665061;border-radius:16px;overflow:hidden;background:#ddd;height:610px}
+#prototype .trip-map iframe{width:100%;height:100%;border:0;display:block}
+#prototype .trip-map-fallback{position:absolute;bottom:18px;left:18px;background:#fff;color:#70213b;padding:11px 16px;border-radius:10px;box-shadow:0 3px 14px #0003;font-size:13px;font-weight:600}
+#prototype .trip-clubs{display:grid;gap:8px;margin-bottom:16px}
+#prototype .trip-club{display:flex;align-items:center;gap:12px;text-align:left;min-height:76px;padding:14px;border-radius:12px;border:1px solid #584750;background:#24212b;color:#eee}
+#prototype .trip-club.active{border:2px solid #db5575;background:#432632}
+#prototype .trip-club>span{flex:1;min-width:0}
+#prototype .trip-club strong{display:block;font-size:14px}
+#prototype .trip-club small{display:block;margin-top:5px;color:#c9b5c4;font-size:12px}
+#prototype .trip-selected{border-radius:14px}
+#prototype .trip-selected h2{margin:7px 0;font-size:24px}
+#prototype .trip-selected p{margin:10px 0;line-height:1.6}
+#prototype .trip-selected h3{margin-top:22px;font-size:15px}
+#prototype .trip-routes{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}
+#prototype .trip-routes a{flex:1;white-space:nowrap;font-size:12px;padding:12px 9px;text-align:center}
+#prototype .trip-selected>small{display:block;color:#c9b5c4;line-height:1.5;margin-bottom:16px}
+#prototype .trip-selected>.primary{margin-top:16px}
+#prototype[data-theme=light] :is(.trip-entry,.trip-hero){background:linear-gradient(110deg,#f6dfe7,#edf0fc);border-color:#d6adba;color:#372333}
+#prototype[data-theme=light] :is(.trip-entry,.trip-hero) :is(h1,h2){color:#372333}
+#prototype[data-theme=light] :is(.trip-entry,.trip-hero) p{color:#604f63}
+#prototype[data-theme=light] :is(.trip-entry,.trip-hero) .icon{color:#932b4c}
+#prototype[data-theme=light] .trip-club{background:#fff;border-color:#d3c4d2;color:#322a38}
+#prototype[data-theme=light] .trip-club.active{background:#f5e4eb;border-color:#a82a4d}
+#prototype[data-theme=light] :is(.trip-club small,.trip-toolbar small,.trip-selected>small){color:#66576a}
+#prototype[data-theme=light] .trip-map-fallback{color:#70213b}
+#prototype .frame[data-device=mobile] .trip-layout{grid-template-columns:1fr}
+#prototype .frame[data-device=mobile] .trip-map{height:330px}
+#prototype .frame[data-device=mobile] .trip-hero h1{font-size:27px}
+@media(max-width:720px){#prototype .trip-layout{grid-template-columns:1fr}#prototype .trip-map{height:330px}#prototype .trip-entry,#prototype .trip-hero{padding:20px 17px}#prototype .trip-entry h2{font-size:20px}#prototype .trip-hero h1{font-size:27px}#prototype .trip-toolbar{gap:15px}#prototype .trip-toolbar .field{width:60%}#prototype .trip-toolbar select{font-size:16px}#prototype .trip-toolbar small{font-size:11px}#prototype .trip-entry p{font-size:13px}}
