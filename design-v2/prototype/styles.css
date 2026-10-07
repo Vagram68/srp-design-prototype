@@ -1054,3 +1054,9 @@ body{background:#f4f3ef}
 #prototype[data-theme=dark] .assistant-launcher,#prototype[data-theme=dark] .assistant-user{background:var(--action);border-color:var(--action)}
 #prototype[data-theme] .auth-art .eyebrow{color:#f4ced9!important}
 #prototype[data-theme] .assistant-launcher i{background:transparent;color:white;opacity:1}
+#prototype[data-theme] .search>.icon{position:static;flex-shrink:0;transform:none}
+#prototype[data-theme] .club-card-banner{position:relative;min-height:160px}
+#prototype[data-theme] .club-catalog-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+#prototype[data-theme] .club-photo-banner>.pill{position:relative;margin-left:auto;background:#fff;color:#715421}
+@media(min-width:721px){#prototype[data-theme] .assistant-launcher{bottom:84px}}
+#prototype[data-theme] .danger{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 18px;border:1px solid var(--accent);border-radius:12px;background:var(--accent-soft);color:var(--accent);font-size:14px;font-weight:650}
