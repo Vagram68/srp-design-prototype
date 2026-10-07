@@ -457,3 +457,10 @@ body:has(#prototype[data-theme=light]){background:#f3f2f5;color:#22232a}
 #prototype[data-theme=light] .event-card-top{background:linear-gradient(105deg,#f1e0e4,#f7eff1);border-color:#ddc3cb}
 #prototype[data-theme=light] .event-card-top span:first-child{color:#813c4b}
 #prototype[data-theme=light] .event-card-top .suit{color:#945463}
+
+#prototype[data-theme=light] .account-subnav a.active{background:#e8dce2;color:#8d1b37}
+#prototype[data-theme=light] .achievement-card .medal{background:#f4ead3;border-color:#bea268;color:#755017}
+#prototype[data-theme=light] .achievement-card.locked .medal{background:#edf0f4;border-color:#c1c7d1;color:#657080}
+#prototype[data-theme=light] .progress-track{background:#dce1e8}
+#prototype[data-theme=light] .auth-form .check-line input[type=checkbox]{width:16px;height:16px;min-height:16px;padding:0;flex-shrink:0;accent-color:#a3213b}
+#prototype[data-theme=light] .auth-form .check-line{align-items:center}
