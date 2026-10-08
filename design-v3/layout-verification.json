@@ -1,0 +1,1178 @@
+[
+  {
+    "main": true,
+    "page": "#home",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#tournaments",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#tournament",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#completed",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#history",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#leagues",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#city-event",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#champion-event",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#rating-event",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#ambassadors",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#clubs",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#club",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#map",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#rating",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#player",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#player-history",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#player-achievements",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#player-statistics",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#profile",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#achievements",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#statistics",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#settings",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#broadcast",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#notifications",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#push-settings",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#loyalty",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#welcome",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#login",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#register",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#reset",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#verify",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#about",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#support",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#updates",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#install",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#privacy",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#consent",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#games",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#watch",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#competitions",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#memory",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#player-result",
+    "scroll": 390,
+    "theme": "dark",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#home",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#tournaments",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#tournament",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#completed",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#history",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#leagues",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#city-event",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#champion-event",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#rating-event",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#ambassadors",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#clubs",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#club",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#map",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#rating",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#player",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#player-history",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#player-achievements",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#player-statistics",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#profile",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#achievements",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#statistics",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#settings",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#broadcast",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#notifications",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#push-settings",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#loyalty",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#welcome",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#login",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#register",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#reset",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#verify",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#about",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#support",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#updates",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#install",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#privacy",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#consent",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#games",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#watch",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#competitions",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#memory",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#player-result",
+    "scroll": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#home",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#tournaments",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#tournament",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#completed",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#history",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#leagues",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#city-event",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#champion-event",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#rating-event",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#ambassadors",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#clubs",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#club",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#map",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#rating",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#player",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#player-history",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#player-achievements",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#player-statistics",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#profile",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#achievements",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#statistics",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#settings",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#broadcast",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#notifications",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#push-settings",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#loyalty",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#welcome",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#login",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#register",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#reset",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#verify",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#about",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#support",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#updates",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#install",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#privacy",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#consent",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#games",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#watch",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#competitions",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#memory",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#player-result",
+    "scroll": 1280,
+    "theme": "dark",
+    "width": 1280
+  },
+  {
+    "main": true,
+    "page": "#home",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#tournaments",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#tournament",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#completed",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#history",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#leagues",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#city-event",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#champion-event",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#rating-event",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#ambassadors",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#clubs",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#club",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#map",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#rating",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#player",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#player-history",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#player-achievements",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#player-statistics",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#profile",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#achievements",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#statistics",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#settings",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#broadcast",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#notifications",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#push-settings",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#loyalty",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#welcome",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#login",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#register",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#reset",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#verify",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#about",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#support",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#updates",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#install",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#privacy",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#consent",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#games",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#watch",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#competitions",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#memory",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "main": true,
+    "page": "#player-result",
+    "scroll": 390,
+    "theme": "light",
+    "width": 390
+  }
+]
