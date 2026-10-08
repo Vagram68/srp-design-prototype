@@ -1,0 +1,74 @@
+{
+  "assets": [
+    {
+      "name": "home-film-2-poster.jpg",
+      "url": "https://app.srpclient.ru/home/home-film-2-poster.jpg",
+      "contentType": "image/jpeg",
+      "kind": "image"
+    },
+    {
+      "name": "home-film-3-poster.jpg",
+      "url": "https://app.srpclient.ru/home/home-film-3-poster.jpg",
+      "contentType": "image/jpeg",
+      "kind": "image"
+    },
+    {
+      "name": "zemlya-poster.jpg",
+      "url": "https://app.srpclient.ru/home/zemlya-poster.jpg",
+      "contentType": "image/jpeg",
+      "kind": "image"
+    },
+    {
+      "name": "ambassador-poster.jpg",
+      "url": "https://app.srpclient.ru/home/ambassador-poster.jpg",
+      "contentType": "image/jpeg",
+      "kind": "image"
+    },
+    {
+      "name": "srp-wordmark.svg",
+      "url": "https://app.srpclient.ru/home/srp-wordmark.svg",
+      "contentType": "image/svg+xml",
+      "kind": "image"
+    },
+    {
+      "name": "home-film-2.mp4",
+      "url": "https://app.srpclient.ru/home/home-film-2.mp4",
+      "contentType": "video/mp4",
+      "kind": "video"
+    },
+    {
+      "name": "home-film-3.mp4",
+      "url": "https://app.srpclient.ru/home/home-film-3.mp4",
+      "contentType": "video/mp4",
+      "kind": "video"
+    },
+    {
+      "name": "zemlya.mp4",
+      "url": "https://app.srpclient.ru/home/zemlya.mp4",
+      "contentType": "video/mp4",
+      "kind": "video"
+    },
+    {
+      "name": "ambassador.mp4",
+      "url": "https://app.srpclient.ru/home/ambassador.mp4",
+      "contentType": "video/mp4",
+      "kind": "video"
+    }
+  ],
+  "failures": [
+    {
+      "contentType": null,
+      "id": "8ace34e2a9052b9e",
+      "name": "bf724d0a-a2fb-481d-84f2-09e7dd8476ea.png",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: Error: Asset request failed with HTTP 404\n    at ZZ (<anonymous>:1:102)",
+      "url": "https://app.srpclient.ru/uploads/tournament-types/bf724d0a-a2fb-481d-84f2-09e7dd8476ea.png"
+    },
+    {
+      "contentType": null,
+      "id": "8fb505e5e963e628",
+      "name": "17a0e15c-a3f0-491c-a85b-95503b987a9e.webm",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: Error: Asset request failed with HTTP 404\n    at ZZ (<anonymous>:1:102)",
+      "url": "https://app.srpclient.ru/uploads/tournament-chips-video/17a0e15c-a3f0-491c-a85b-95503b987a9e.webm"
+    }
+  ]
+}
