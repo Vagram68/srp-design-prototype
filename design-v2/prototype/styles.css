@@ -1075,3 +1075,11 @@ body{background:#f4f3ef}
 #prototype[data-theme] .event-detail .detail-art p{color:var(--muted)}
 #prototype[data-theme] .event-detail .facts :is(dt,dd){color:var(--ink)}
 #prototype[data-theme] .event-detail .facts dt{color:var(--muted)}
+
+/* Soft blue light palette — 2026-10-08. Dark theme unchanged. */
+#prototype[data-theme=light]{--bg:#edf3f8;--surface:#f8fbfd;--surface-2:#e3ecf4;--ink:#202934;--muted:#556477;--line:#cddae6;--accent:#922742;--accent-hover:#742036;--accent-soft:#f2e3e9;--shadow:0 8px 30px #233b5508}
+body:has(#prototype[data-theme=light]){background:#edf3f8}
+#prototype[data-theme=light] :is(.clubhouse-copy,.auth-form){background:var(--surface)!important}
+#prototype[data-theme=light] .sidebar{background:#e7eff6!important}
+#prototype[data-theme=light] :is(.review-bar,.topbar){background:#f2f7fb!important}
+#prototype[data-theme=light] :is(.review-caption,.review-bottom){background:#e3ecf4!important}
