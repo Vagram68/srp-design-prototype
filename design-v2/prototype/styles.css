@@ -1083,3 +1083,26 @@ body:has(#prototype[data-theme=light]){background:#edf3f8}
 #prototype[data-theme=light] .sidebar{background:#e7eff6!important}
 #prototype[data-theme=light] :is(.review-bar,.topbar){background:#f2f7fb!important}
 #prototype[data-theme=light] :is(.review-caption,.review-bottom){background:#e3ecf4!important}
+
+/* SRP graphite and muted gold — reference screenshot, 2026-10-08. */
+#prototype[data-theme=dark]{--bg:#0d0e12;--surface:#191a23;--surface-2:#222330;--ink:#ededf3;--muted:#a5a7bd;--line:#30313e;--accent:#dfcd80;--accent-hover:#eadb9c;--action:#dfcd80;--action-hover:#eadb9c;--accent-soft:#302d25;--gold:#dfcd80;--gold-bg:#302d25;--success:#a8b5ff;--success-bg:#282d48;--shadow:0 8px 30px #0002}
+#prototype[data-theme=light]{--bg:#edf2f7;--surface:#f8fafc;--surface-2:#e4eaf2;--ink:#222431;--muted:#586176;--line:#ced6e2;--accent:#715916;--accent-hover:#58420d;--action:#dfcd80;--action-hover:#d4bd66;--accent-soft:#eee7ce;--gold:#715916;--gold-bg:#eee7ce;--success:#3d50ab;--success-bg:#e5e9fb;--shadow:0 8px 30px #28334c08}
+body:has(#prototype[data-theme=dark]){background:#0d0e12}
+#prototype[data-theme=dark] :is(.topbar,.sidebar,.review-bar){background:#12131b!important}
+#prototype[data-theme=light] :is(.topbar,.review-bar){background:#f1f5f9!important}
+#prototype[data-theme=light] .sidebar{background:#e6edf4!important}
+#prototype[data-theme] .primary{background:var(--action)!important;border-color:var(--action)!important;color:#222016!important;font-weight:700}
+#prototype[data-theme] .primary:hover{background:var(--action-hover)!important;border-color:var(--action-hover)!important}
+#prototype[data-theme] .primary :is(.icon,strong,b,span){color:#222016!important}
+#prototype[data-theme] :is(.assistant-launcher,.assistant-user){background:var(--action)!important;border-color:var(--action)!important;color:#222016!important}
+#prototype[data-theme] .assistant-launcher :is(.icon,i,span){color:#222016!important}
+#prototype[data-theme] .logo img{filter:brightness(0) saturate(100%) invert(83%) sepia(27%) saturate(583%) hue-rotate(5deg) brightness(95%) contrast(91%)}
+#prototype[data-theme=light] .logo img{filter:brightness(0) saturate(100%) invert(33%) sepia(35%) saturate(925%) hue-rotate(8deg) brightness(94%) contrast(90%)}
+#prototype[data-theme] .logo small{color:var(--muted);letter-spacing:.08em}
+#prototype[data-theme] :is(.appnav a.active,.bottomnav a.active){color:var(--accent)!important;background:var(--accent-soft)!important}
+#prototype[data-theme] .pill.green{color:var(--success)!important;background:var(--success-bg)!important}
+#prototype[data-theme] :is(.panel,.event-card,.next-game,.clubhouse-hero,.club-card){box-shadow:var(--shadow)}
+#prototype[data-theme] .clubhouse-hero{border-radius:20px}
+#prototype[data-theme] .secondary{border-radius:10px}
+#prototype[data-theme] .primary{border-radius:10px}
+#prototype[data-theme] :is(.tabs button.active,.tabline button.active,.detail-tabs button.active,.filter-chips button.active){background:var(--accent-soft)!important;color:var(--accent)!important}
